@@ -143,6 +143,69 @@ def get_media_data(tag_dict):
         @input: dict of <media /> tag attributes
         @output: dict of required values
     """
+    audio_codec_map = {
+        'aac': 'AAC',
+        'ac3': 'Dolby Digital',
+        'dca': 'DTS',
+        'dca-ma': 'DTS-HD MA',
+        'eac3': 'Dolby Digital+',
+        'mp2': 'MP2',
+        'mp3': 'MP3',
+        'flac': 'FLAC',
+        'pcm': 'PCM',
+        'truehd': 'Dolby TrueHD'
+    }
+
+    video_codec_map = {
+        'av1': 'AV1',
+        'h264': 'H264',
+        'hevc': 'H265',
+        'mpeg2video': 'MPEG-2',
+        'mpeg4': 'MPEG-4',
+        'vc1': 'VC1'
+    }
+
+    resolution_map = {
+        'sd': 'SD',
+        '480': '480p',
+        '576': '576p',
+        '720': '720p',
+        '1080': '1080p',
+        '4k': '4K'
+    }
+
+    audio_channels_map = {
+        '1': '1.0',
+        '2': '2.0',
+        '3': '2.1',
+        '4': '4.0',
+        '5': '4.1',
+        '6': '5.1',
+        '7': '6.1',
+        '8': '7.1'
+    }
+
+    audio_channels_raw = tag_dict.get('audioChannels', '')
+    bitrate_raw = tag_dict.get('bitrate', '')
+    try:
+        bitrate_mbps = round(int(bitrate_raw) / 1000, 1)
+        bitrate = f"{bitrate_mbps} Mbps"
+    except (ValueError, TypeError):
+        bitrate = ''
+    codec_audio = tag_dict.get('audioCodec', '')
+    codec_video = tag_dict.get('videoCodec', '')
+    resolution_video = tag_dict.get('videoResolution', '')
+
+    audio_channels = audio_channels_map.get(audio_channels_raw, f"{audio_channels_raw}.0" if audio_channels_raw.isdigit() else audio_channels_raw)
+    codec_audio = audio_codec_map.get(codec_audio, codec_audio)
+    codec_video = video_codec_map.get(codec_video, codec_video)
+    resolution_video = resolution_map.get(resolution_video, resolution_video)
+
+    audio_full = f"{codec_audio} {audio_channels}".strip() if codec_audio or audio_channels else ''
+
+    codec_parts = [part for part in [resolution_video, codec_video, audio_full, bitrate] if part]
+    codec = " · ".join(codec_parts)
+
     stream_info_video = {
         'codec': tag_dict.get('videoCodec', ''),
         'aspect': float(tag_dict.get('aspectRatio', '1.78')),
@@ -151,8 +214,8 @@ def get_media_data(tag_dict):
         'duration': int(tag_dict.get('duration', 0)) / 1000
     }
     stream_info_audio = {
-        'codec': tag_dict.get('audioCodec', ''),
-        'channels': int(tag_dict.get('audioChannels', '2'))
+        'codec': codec,
+        'channels': 0
     }
 
     return {
