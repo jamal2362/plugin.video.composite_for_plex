@@ -656,16 +656,6 @@ class Plex:  # pylint: disable=too-many-public-methods, too-many-instance-attrib
 
         if is_ip(uri):
             LOG.debug('IP address detected - passing through')
-        elif 'plex.direct' in uri:
-            LOG.debug('Plex.direct name detected - attempting look up')
-
-            address = uri.split('.')[0]
-            clean_address = address.replace('-', '.')
-
-            if is_ip(clean_address):
-                uri = clean_address
-            else:
-                LOG.debug('Unable to clean plex.direct name')
         else:
             try:
                 socket.gethostbyname(uri)
