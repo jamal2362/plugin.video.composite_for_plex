@@ -1397,47 +1397,47 @@ msgstr "Alle %s"
 
 msgctxt "#30757"
 msgid "All Servers: TV Shows On Deck"
-msgstr ""
+msgstr "Alle Server: Serien"
 
 msgctxt "#30758"
 msgid "All Servers: Movies On Deck"
-msgstr ""
+msgstr "Alle Server: Filme"
 
 msgctxt "#30759"
 msgid "Recently Added Episodes"
-msgstr ""
+msgstr "Kürzlich hinzugefügte Episoden"
 
 msgctxt "#30760"
 msgid "All Servers: Recently Added Episodes"
-msgstr ""
+msgstr "Alle Server: Kürzlich hinzugefügte Episoden"
 
 msgctxt "#30761"
 msgid "All Servers: Recently Added Movies"
-msgstr ""
+msgstr "Alle Server: Kürzlich hinzugefügte Filme"
 
 msgctxt "#30762"
 msgid "Server name prefix on combined sections"
-msgstr ""
+msgstr "Präfix des Servernamens bei kombinierten Abschnitten"
 
 msgctxt "#30763"
 msgid "Recently Added item count (per server section)"
-msgstr ""
+msgstr "Anzahl der kürzlich hinzugefügten Objekte (pro Serverbereich)"
 
 msgctxt "#30764"
 msgid "Recently Added include watched"
-msgstr ""
+msgstr "Kürzlich hinzugefügt mit Angesehen"
 
 msgctxt "#30765"
 msgid "Composite Playlist"
-msgstr ""
+msgstr "Zusammengesetzte Wiedergabeliste"
 
 msgctxt "#30766"
 msgid "Generate a playlist from the information below"
-msgstr ""
+msgstr "Eine Playlist aus den unten stehenden Informationen erstellen"
 
 msgctxt "#30767"
 msgid "Mixed"
-msgstr ""
+msgstr "Gemischt"
 
 msgctxt "#30768"
 msgid "Play"
@@ -1445,11 +1445,11 @@ msgstr "Wiedergeben"
 
 msgctxt "#30769"
 msgid "Item Count"
-msgstr ""
+msgstr "Anzahl der Einträge"
 
 msgctxt "#30770"
 msgid "All Servers"
-msgstr ""
+msgstr "Alle Server"
 
 msgctxt "#30771"
 msgid "Shuffle"
@@ -1465,163 +1465,163 @@ msgstr "Keine"
 
 msgctxt "#30774"
 msgid "Generating Playlist"
-msgstr ""
+msgstr "Wiedergabeliste generieren"
 
 msgctxt "#30775"
 msgid "This may take a while..."
-msgstr ""
+msgstr "Das kann eine Weile dauern..."
 
 msgctxt "#30776"
 msgid "Retrieving server list..."
-msgstr ""
+msgstr "Abrufen der Serverliste..."
 
 msgctxt "#30777"
 msgid "Retrieving server sections..."
-msgstr ""
+msgstr "Abrufen von Serverbereichen..."
 
 msgctxt "#30778"
 msgid "Retrieving content metadata..."
-msgstr ""
+msgstr "Abrufen von Inhaltsmetadaten..."
 
 msgctxt "#30779"
 msgid "Retrieving final sample..."
-msgstr ""
+msgstr "Abrufen der endgültigen Sample..."
 
 msgctxt "#30780"
 msgid "Adding items to playlist..."
-msgstr ""
+msgstr "Hinzufügen von Elementen zur Wiedergabeliste..."
 
 msgctxt "#30781"
 msgid "Adding %s to playlist..."
-msgstr ""
+msgstr "%s zur Wiedergabeliste hinzufügen..."
 
 msgctxt "#30782"
 msgid "Completed."
-msgstr ""
+msgstr "Erledigt."
 
 msgctxt "#30783"
 msgid "Checking section %s on %s..."
-msgstr ""
+msgstr "Überprüfe Abschnitt %s auf %s..."
 
 msgctxt "#30784"
 msgid "Retrieving %s from %s for sample..."
-msgstr ""
+msgstr "Abrufen von %s aus %s für Sample..."
 
 msgctxt "#30785"
 msgid "Retrieving %s episodes for sample..."
-msgstr ""
+msgstr "Abrufen von %s Episoden für Sample..."
 
 msgctxt "#30786"
 msgid "Creating samples..."
-msgstr ""
+msgstr "Samples erstellen..."
 
 msgctxt "#30787"
 msgid "Retrieving metadata for %s..."
-msgstr ""
+msgstr "Abrufen von Metadaten für %s..."
 
 msgctxt "#30788"
 msgid "Show [B]Composite Playlist[/B] menu"
-msgstr ""
+msgstr "Menü [B]Zusammengesetzte Wiedergabeliste[/B] anzeigen"
 
 msgctxt "#30789"
 msgid "Server(s)"
-msgstr ""
+msgstr "Server"
 
 msgctxt "#30790"
 msgid "Combined Sections"
-msgstr ""
+msgstr "Kombinierte Bereiche"
 
 msgctxt "#30791"
 msgid "Search Movies..."
-msgstr ""
+msgstr "Filme suchen..."
 
 msgctxt "#30792"
 msgid "Mark as watched"
-msgstr ""
+msgstr "Als gesehen markieren"
 
 msgctxt "#30793"
 msgid "Mark as unwatched"
-msgstr ""
+msgstr "Als ungesehen markieren"
 
 msgctxt "#30794"
 msgid "Library - Movie Sections"
-msgstr ""
+msgstr "Bibliothek - Filmbereiche"
 
 msgctxt "#30795"
 msgid "Library - TV Show Sections"
-msgstr ""
+msgstr "Bibliothek - Seerienbereiche"
 
 msgctxt "#30796"
 msgid "Kodi Library"
-msgstr ""
+msgstr "Kodi-Bibliothek"
 
 msgctxt "#30797"
 msgid "Select sections to include in library scans"
-msgstr ""
+msgstr "Auswählen von Abschnitten, die in die Bibliotheksscans aufgenommen werden sollen"
 
 msgctxt "#30798"
 msgid "Reset selected sections"
-msgstr ""
+msgstr "Ausgewählte Bereiche zurücksetzen"
 
 msgctxt "#30799"
 msgid "Configured library sections have been reset"
-msgstr ""
+msgstr "Konfigurierte Bibliotheksbereiche wurden zurückgesetzt"
 
 msgctxt "#30800"
 msgid "Continue Watching"
-msgstr ""
+msgstr "Weiterschauen"
 
 msgctxt "#30801"
 msgid "Detect Servers"
-msgstr ""
+msgstr "Server ermitteln"
 
 msgctxt "#30802"
 msgid "420x420, 320Kbps"
-msgstr ""
+msgstr "420x420, 320Kbps"
 
 msgctxt "#30803"
 msgid "576x320, 720Kbps"
-msgstr ""
+msgstr "576x320, 720Kbps"
 
 msgctxt "#30804"
 msgid "720x480, 1.5Mbps"
-msgstr ""
+msgstr "720x480, 1.5Mbps"
 
 msgctxt "#30805"
 msgid "1024x768, 2Mbps"
-msgstr ""
+msgstr "1024x768, 2Mbps"
 
 msgctxt "#30806"
 msgid "1280x720, 3Mbps"
-msgstr ""
+msgstr "1280x720, 3Mbps"
 
 msgctxt "#30807"
 msgid "1280x720, 4Mbps"
-msgstr ""
+msgstr "1280x720, 4Mbps"
 
 msgctxt "#30808"
 msgid "1920x1080, 8Mbps"
-msgstr ""
+msgstr "1920x1080, 8Mbps"
 
 msgctxt "#30809"
 msgid "1920x1080, 10Mbps"
-msgstr ""
+msgstr "1920x1080, 10Mbps"
 
 msgctxt "#30810"
 msgid "1920x1080, 12Mbps"
-msgstr ""
+msgstr "1920x1080, 12Mbps"
 
 msgctxt "#30811"
 msgid "1920x1080, 20Mbps"
-msgstr ""
+msgstr "1920x1080, 20Mbps"
 
 msgctxt "#30812"
 msgid "1920x1080, 40Mbps"
-msgstr ""
+msgstr "1920x1080, 40Mbps"
 
 msgctxt "#30813"
 msgid "1920x1080, unlimited"
-msgstr ""
+msgstr "1920x1080, unbegrenzt"
 
 #~ msgctxt "#30689"
 #~ msgid "Up Next requires Kodi 18 or higher"

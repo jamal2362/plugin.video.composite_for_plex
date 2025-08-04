@@ -291,6 +291,8 @@ def directory_item_translate(title, thumb):
         }
 
     elif thumb.endswith('movie.png') or thumb.endswith('video.png'):
+        if (thumb.endswith('video.png') or thumb.endswith('movie.png')) and title.startswith('All '):
+            return title.replace('All ', '', 1)
         translation_map = {
             'All Movies': 'All Movies',
             'Unplayed': 'Unplayed',
@@ -314,8 +316,6 @@ def directory_item_translate(title, thumb):
             'Search...': 'Search...',
             'Continue Watching': 'Continue Watching',
         }
-        if thumb.endswith('video.png') and title.startswith('All '):
-            return i18n('All_') % title.replace('All ', '')
 
     elif thumb.endswith('photo.png'):
         translation_map = {
